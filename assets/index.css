@@ -1,0 +1,14 @@
+#header {
+    background-image: url("/codesilver/assets/header.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+  background: url('/codesilver/assets/background.jpg') no-repeat;
+  min-height: 500px;
+  background-size: 100% 100%;
+  background-color: #fff;
+  margin: 0;
+}
