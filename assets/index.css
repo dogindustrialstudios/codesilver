@@ -14,16 +14,6 @@ body {
   margin: 0;
   color: #fff;
 }
-#footer {
-    background-image: url("/codesilver/assets/footer.jpg"); 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100px;
-    bottom: 0;
-    width: 100%;
-}
 .chip {
     display: inline-block;
     padding: 0 25px;
