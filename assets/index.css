@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
