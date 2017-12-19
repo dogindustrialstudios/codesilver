@@ -31,9 +31,11 @@ body {
     font-size: 18px;
     line-height: 50px;
     border-radius: 25px;
-    background-color: #f1f1f1;
+    background-color: #000;
 }
-
+.chip:hover {
+    color: #fff;
+}
 .chip img {
     float: left;
     margin: 0 10px 0 -25px;
@@ -41,16 +43,10 @@ body {
     width: 50px;
     border-radius: 50%;
 }
-
-.closebtn {
-    padding-left: 10px;
-    color: #888;
-    font-weight: bold;
-    float: right;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.closebtn:hover {
-    color: #000;
+.chip:hover img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
 }
