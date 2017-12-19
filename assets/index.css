@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 200px;
 }
 body {
   background: url('/codesilver/assets/background.jpg') no-repeat;
@@ -11,4 +12,12 @@ body {
   background-size: 100% 100%;
   background-color: #fff;
   margin: 0;
+}
+#footer {
+    background-image: url("/codesilver/assets/header.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
 }
