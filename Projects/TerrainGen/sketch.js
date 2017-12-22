@@ -115,8 +115,7 @@ function oreColor() {
 
 
 function Biome() {
-	var r = 3;
-	//floor(random(1, 5));
+	var r = floor(random(1, 5));
 	if (r == 1) {
 		IsRoughFlat = true;
 		console.log("Roughly Flat");
