@@ -1,11 +1,11 @@
 var t;
 var p;
 var NumberOfBlocks = 200;
-var NumberOfLayers = 15;
+var NumberOfLayers = 200;
 var mineralChances = 80;
 var DoneOnce = false;
-var RXVal = 100;
-var RYVal = 0;
+var RXVal = 50;
+var RYVal = 50;
 var RZVal = 100;
 var randomNum;
 var IsRoughFlat;
@@ -48,7 +48,7 @@ function DayCycle() {
 }
 
 function setup() {
-	createCanvas(5000, 2000);
+	createCanvas(500, 2000);
 	background(RXVal, RYVal, RZVal);
 	t = new Terrain();
 	bi = new Biome();
@@ -238,5 +238,3 @@ function Update(posAssist) {
 	//p.update(posAssist);
 	//console.log(randomNum);
 }
-
-
