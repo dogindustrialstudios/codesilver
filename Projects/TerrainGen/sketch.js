@@ -1,6 +1,6 @@
 var t;
 var p;
-var NumberOfBlocks = 50;
+var NumberOfBlocks = 500;
 var NumberOfLayers = 15;
 var mineralChances = 80;
 var DoneOnce = false;
