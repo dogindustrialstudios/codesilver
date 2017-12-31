@@ -48,7 +48,7 @@ function DayCycle() {
 }
 
 function setup() {
-	createCanvas(500, 2000);
+	createCanvas(1920, 2000);
 	background(RXVal, RYVal, RZVal);
 	t = new Terrain();
 	bi = new Biome();
